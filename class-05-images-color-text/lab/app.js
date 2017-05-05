@@ -24,11 +24,14 @@ a new branch for your work on the next question!
 
 // Write your code here
 function sum(a,b){ //eslint-disable-line
+    var sum = a + b;
+    var str = 'The sum of ' + a + ' and ' + b + ' is ' + sum + '.';
 
+    return [sum, str];
 }
 
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+testSum(4, 7);
 
 
 
